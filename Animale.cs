@@ -1,9 +1,15 @@
-﻿    public interface IVola{
+﻿    public interface IVolante{
     public void Vola();
     
     }
 
-    public interface Nuota{
+public interface Inuotante
+{
+    public void Nuota();
+
+}
+
+public interface Nuota{
     public void Nuota();
     }
     public abstract class Animale
