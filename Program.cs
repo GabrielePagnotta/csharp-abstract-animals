@@ -59,3 +59,15 @@ Scrivere un programma che istanzi animali che volano o nuotano e richiamare i me
 adalberti.Vola();
 Tursiope.Nuota();
 passero.Vola();
+
+Console.WriteLine("--------------------------------------------------------------------------");
+
+//Bonus
+Console.WriteLine("Pulcinella di mare");
+
+Pulcinelladimare pulcinella = new Pulcinelladimare();
+pulcinella.Verso();
+pulcinella.Dormi();
+pulcinella.Mangia();
+pulcinella.Vola();
+pulcinella.Nuota();
